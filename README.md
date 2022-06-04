@@ -1,9 +1,13 @@
 # Project setup
 
 install virtualenv: pip install virtualenv
+
 python -m virtualenv venv (create virtual environment)
+
 source venv/bin/activate (activate environment)
+
 pip install flask (install flask framework)
+
 touch app.py (create base file)
 
 ### In app.py
