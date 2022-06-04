@@ -32,22 +32,22 @@
     if __name__ == "__main__":
         app.run(debug=True)
 
-## Setup Environment Variable
+### Setup Environment Variable
 
-We need to setup some environment for our project
+    We need to setup some environment for our project
 
-FLASK_APP = app.py (app.py is our base file and FLASK_APP tell flask to run with this file)
+    FLASK_APP = app.py (app.py is our base file and FLASK_APP tell flask to run with this file)
 
-FLASK_ENV = development (since we are in development stage we put FLASK_ENV = development)
+    FLASK_ENV = development (since we are in development stage we put FLASK_ENV = development)
 
-## Run Flask application
+### Run Flask application
 
-flask run
+    flask run
 
 # Application Factory Function and Project Structure and Flaskenv etc
 
 # Setup Database
 
-## using SQLAlchemy
+    using SQLAlchemy
 
-## Install SQLAlchemy: pip install flask-sqlalchemy
+    Install SQLAlchemy: pip install flask-sqlalchemy
