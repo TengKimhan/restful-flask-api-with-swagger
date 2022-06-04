@@ -1,8 +1,8 @@
 # Project setup
 
-### install virtualenv: pip install virtualenv
+install virtualenv: pip install virtualenv
 
-### python -m virtualenv venv (create virtual environment)
+python -m virtualenv venv (create virtual environment)
 
 ### source venv/bin/activate (activate environment)
 
