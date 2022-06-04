@@ -10,27 +10,27 @@
 
     touch app.py (create base file)
 
-    ### app.py
+### app.py
 
-        from flask import Flask, render_template, jsonify
+    from flask import Flask, render_template, jsonify
 
-        app = Flask(__name__)
+    app = Flask(__name__)
 
-        @app.get("/")
-        def home():
-            return render_template("index.html")
+    @app.get("/")
+    def home():
+        return render_template("index.html")
 
-        # response a json format
-        @app.get("/user")
-        def userInfo():
-            return jsonify({
-                "id": "1",
-                "username": "Teng Kimhan",
-                "email": "tengkimhan@gmail.com"
-                })
+    # response a json format
+    @app.get("/user")
+    def userInfo():
+        return jsonify({
+            "id": "1",
+            "username": "Teng Kimhan",
+            "email": "tengkimhan@gmail.com"
+            })
 
-        if __name__ == "__main__":
-            app.run(debug=True)
+    if __name__ == "__main__":
+        app.run(debug=True)
 
 ## Setup Environment Variable
 
